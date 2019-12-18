@@ -13,6 +13,7 @@
 		ED69960923AA9078009F0E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED69960723AA9078009F0E74 /* Main.storyboard */; };
 		ED69960B23AA9079009F0E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED69960A23AA9079009F0E74 /* Assets.xcassets */; };
 		ED69960E23AA9079009F0E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED69960C23AA9079009F0E74 /* LaunchScreen.storyboard */; };
+		ED69961623AA97CC009F0E74 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED69961523AA97CC009F0E74 /* EntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED69960A23AA9079009F0E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED69960D23AA9079009F0E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED69960F23AA9079009F0E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED69961523AA97CC009F0E74 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,14 @@
 				55B3133D23AA96C800BCFE8A /* Resources */,
 				55B3134023AA971500BCFE8A /* Models */,
 				55B3134123AA971E00BCFE8A /* Views */,
+				ED69960123AA9078009F0E74 /* AppDelegate.swift */,
+				ED69960323AA9078009F0E74 /* SceneDelegate.swift */,
+				ED69960523AA9078009F0E74 /* ViewController.swift */,
+				ED69960723AA9078009F0E74 /* Main.storyboard */,
+				ED69960A23AA9079009F0E74 /* Assets.xcassets */,
+				ED69960C23AA9079009F0E74 /* LaunchScreen.storyboard */,
+				ED69960F23AA9079009F0E74 /* Info.plist */,
+				ED69961523AA97CC009F0E74 /* EntryController.swift */,
 			);
 			path = JournalWithGit;
 			sourceTree = "<group>";
@@ -163,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B3133F23AA971000BCFE8A /* Entry.swift in Sources */,
+				ED69961623AA97CC009F0E74 /* EntryController.swift in Sources */,
 				ED69960223AA9078009F0E74 /* AppDelegate.swift in Sources */,
 				ED69960423AA9078009F0E74 /* SceneDelegate.swift in Sources */,
 			);
